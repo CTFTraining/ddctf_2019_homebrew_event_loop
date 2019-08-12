@@ -5,7 +5,7 @@ LABEL Blog="https://www.virzz.com"
 
 ENV FLASK_APP=app.py FLASK_ENV=production
 
-ADD main.py /app/app.py
+ADD src /app/
 
 RUN pip install \
 	-i http://mirrors.aliyun.com/pypi/simple/ \

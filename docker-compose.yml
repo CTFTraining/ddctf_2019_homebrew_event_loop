@@ -3,8 +3,10 @@ version: "2"
 services:
 
   web:
-    build: .
+    # build: .
     image: ctftraining/ddctf_2019_homebrew_event_loop
     restart: always
     ports:
       - "127.0.0.1:8081:5000"
+    environment:
+      - FLAG=flag{3v41_3v3nt_100p_aNd_fLASK_c0Ok1e}

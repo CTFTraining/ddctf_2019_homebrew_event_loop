@@ -7,7 +7,7 @@ url_prefix = '/d5afe1f66147e857'
 
 
 def FLAG():
-    return '3v41_3v3nt_100p_aNd_fLASK_c0Ok1e'  # censored
+    return '*********************'  # censored
 
 
 def trigger_event(event):
